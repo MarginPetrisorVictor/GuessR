@@ -1,0 +1,2 @@
+# GuessR
+ Proiect Informatica Industriala
