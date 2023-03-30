@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using GuessR.Models;
 
 namespace GuessR.Data
 {
@@ -9,5 +10,6 @@ namespace GuessR.Data
             : base(options)
         {
         }
+        public DbSet<GuessR.Models.GuessModel>? GuessModel { get; set; }
     }
 }

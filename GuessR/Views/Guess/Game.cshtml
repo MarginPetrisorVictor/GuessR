@@ -1,0 +1,36 @@
+﻿@if (ViewBag.ContentType == "Image")
+{
+    @if (!string.IsNullOrEmpty(ViewBag.ContentUrl))
+    {
+        <pre>@ViewBag.Question</pre>
+        <p></p>
+        <style>
+            .center {
+                display: block;
+                margin: auto;
+            }
+        </style>
+
+        <img src="@ViewBag.ContentUrl" alt="My Image" class="center">
+    }
+    else
+    {
+        <p>No image found</p>
+    }
+}
+else
+{
+    <p>Cine canta versurile:</p>
+    <pre class="center">@ViewBag.Question</pre>
+    <p></p>
+}
+
+<form asp-controller="Guess" asp-action="GuessAnswer" method="post">
+    <div class="form-group">
+        <label for="answer">Your answer:</label>
+        <input type="text" class="form-control" id="answer" name="answer" required>
+    </div>
+    <input type="hidden" name="questionId" value="@ViewBag.QuestionId">
+    <input type="hidden" name="score" value="@ViewBag.Score">
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

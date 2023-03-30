@@ -9,45 +9,73 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GuessR
 build_property.RootNamespace = GuessR
-build_property.ProjectDir = E:\FACULTATE\ANUL III\Sem II\Informatica industriala\Proiect\GuessR\GuessR\
+build_property.ProjectDir = q:\faculta\AN3\SEM 2\II\Proiect\Proiect Git\GuessR\GuessR\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\FACULTATE\ANUL III\Sem II\Informatica industriala\Proiect\GuessR\GuessR
+build_property.MSBuildProjectDirectory = q:\faculta\AN3\SEM 2\II\Proiect\Proiect Git\GuessR\GuessR
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/FACULTATE/ANUL III/Sem II/Informatica industriala/Proiect/GuessR/GuessR/Areas/Identity/Pages/_ViewStart.cshtml]
+[q:/faculta/AN3/SEM 2/II/Proiect/Proiect Git/GuessR/GuessR/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/FACULTATE/ANUL III/Sem II/Informatica industriala/Proiect/GuessR/GuessR/Views/Home/Index.cshtml]
+[q:/faculta/AN3/SEM 2/II/Proiect/Proiect Git/GuessR/GuessR/Views/Guess/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Vlc3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[q:/faculta/AN3/SEM 2/II/Proiect/Proiect Git/GuessR/GuessR/Views/Guess/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Vlc3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[q:/faculta/AN3/SEM 2/II/Proiect/Proiect Git/GuessR/GuessR/Views/Guess/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Vlc3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[q:/faculta/AN3/SEM 2/II/Proiect/Proiect Git/GuessR/GuessR/Views/Guess/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Vlc3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[q:/faculta/AN3/SEM 2/II/Proiect/Proiect Git/GuessR/GuessR/Views/Guess/Game.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Vlc3NcR2FtZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[q:/faculta/AN3/SEM 2/II/Proiect/Proiect Git/GuessR/GuessR/Views/Guess/GameOver.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Vlc3NcR2FtZU92ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[q:/faculta/AN3/SEM 2/II/Proiect/Proiect Git/GuessR/GuessR/Views/Guess/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Vlc3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[q:/faculta/AN3/SEM 2/II/Proiect/Proiect Git/GuessR/GuessR/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/FACULTATE/ANUL III/Sem II/Informatica industriala/Proiect/GuessR/GuessR/Views/Home/Privacy.cshtml]
+[q:/faculta/AN3/SEM 2/II/Proiect/Proiect Git/GuessR/GuessR/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/FACULTATE/ANUL III/Sem II/Informatica industriala/Proiect/GuessR/GuessR/Views/Shared/Error.cshtml]
+[q:/faculta/AN3/SEM 2/II/Proiect/Proiect Git/GuessR/GuessR/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/FACULTATE/ANUL III/Sem II/Informatica industriala/Proiect/GuessR/GuessR/Views/Shared/_LoginPartial.cshtml]
+[q:/faculta/AN3/SEM 2/II/Proiect/Proiect Git/GuessR/GuessR/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/FACULTATE/ANUL III/Sem II/Informatica industriala/Proiect/GuessR/GuessR/Views/Shared/_ValidationScriptsPartial.cshtml]
+[q:/faculta/AN3/SEM 2/II/Proiect/Proiect Git/GuessR/GuessR/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/FACULTATE/ANUL III/Sem II/Informatica industriala/Proiect/GuessR/GuessR/Views/_ViewImports.cshtml]
+[q:/faculta/AN3/SEM 2/II/Proiect/Proiect Git/GuessR/GuessR/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/FACULTATE/ANUL III/Sem II/Informatica industriala/Proiect/GuessR/GuessR/Views/_ViewStart.cshtml]
+[q:/faculta/AN3/SEM 2/II/Proiect/Proiect Git/GuessR/GuessR/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/FACULTATE/ANUL III/Sem II/Informatica industriala/Proiect/GuessR/GuessR/Views/Shared/_Layout.cshtml]
+[q:/faculta/AN3/SEM 2/II/Proiect/Proiect Git/GuessR/GuessR/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-fgjymbcrl0
