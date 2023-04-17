@@ -354,3 +354,6 @@ Q:\faculta\AN3\SEM 2\II\Proiect\Proiect Git\GuessR\GuessR\obj\Debug\net6.0\refin
 Q:\faculta\AN3\SEM 2\II\Proiect\Proiect Git\GuessR\GuessR\obj\Debug\net6.0\GuessR.pdb
 Q:\faculta\AN3\SEM 2\II\Proiect\Proiect Git\GuessR\GuessR\obj\Debug\net6.0\GuessR.genruntimeconfig.cache
 Q:\faculta\AN3\SEM 2\II\Proiect\Proiect Git\GuessR\GuessR\obj\Debug\net6.0\ref\GuessR.dll
+Q:\faculta\AN3\SEM 2\II\Proiect\Proiect Git\GuessR\GuessR\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+Q:\faculta\AN3\SEM 2\II\Proiect\Proiect Git\GuessR\GuessR\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+Q:\faculta\AN3\SEM 2\II\Proiect\Proiect Git\GuessR\GuessR\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll

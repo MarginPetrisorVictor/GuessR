@@ -25,12 +25,34 @@ else
     <p></p>
 }
 
-<form asp-controller="Guess" asp-action="GuessAnswer" method="post">
+<form asp-controller="Guess" asp-action="GuessAnswer" method="post" onsubmit="submitAnswer()">
     <div class="form-group">
         <label for="answer">Your answer:</label>
         <input type="text" class="form-control" id="answer" name="answer" required>
     </div>
     <input type="hidden" name="questionId" value="@ViewBag.QuestionId">
     <input type="hidden" name="score" value="@ViewBag.Score">
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-primary" onclick="disableConfirmNavigation()">Submit</button>
 </form>
+
+<script>
+    let confirmNavigation = true;
+
+    window.addEventListener("beforeunload", function (event) {
+        if (confirmNavigation) {
+            event.preventDefault();
+            event.returnValue = "";
+        }
+    });
+
+    function disableConfirmNavigation() {
+        confirmNavigation = false;
+        window.removeEventListener("beforeunload");
+    }
+
+    // Call disableConfirmNavigation() when the user submits an answer
+    function submitAnswer() {
+        disableConfirmNavigation();
+        window.history.pushState(null, "", window.location.href);
+    }
+</script>

@@ -9,6 +9,8 @@ using GuessR.Data;
 using GuessR.Models;
 using static System.Formats.Asn1.AsnWriter;
 using static System.Net.Mime.MediaTypeNames;
+using Microsoft.Extensions.Configuration;
+
 
 namespace GuessR.Controllers
 {
@@ -21,7 +23,7 @@ namespace GuessR.Controllers
             _context = context;
         }
         private static List<int> _shownQuestionIds = new List<int>();
-
+        private static List<int> _alreadyViewedQuestionsIds = new List<int>();
 
         // GET: Guess
         public async Task<IActionResult> Index()
@@ -188,11 +190,13 @@ namespace GuessR.Controllers
             .FirstOrDefault();
 
             // Keep track of the ID of the shown question
-            _shownQuestionIds.Add(randomQuestion.Id);
+            if (randomQuestion != null)
+            {
+                _shownQuestionIds.Add(randomQuestion.Id);
 
-            // Store the question ID in the session for future requests
-            HttpContext.Session.SetInt32("QuestionId", randomQuestion.Id);
-
+                // Store the question ID in the session for future requests
+                HttpContext.Session.SetInt32("QuestionId", randomQuestion.Id);
+            }
             return randomQuestion;
         }
 
@@ -204,6 +208,12 @@ namespace GuessR.Controllers
 
             if(questionId.HasValue)
             {
+                if (_alreadyViewedQuestionsIds.Contains(questionId.Value))
+                {
+                    _alreadyViewedQuestionsIds.Clear();
+                    return View("GameOver");
+                }
+
                 randomQuestion=_context.GuessModel.FirstOrDefault(q => q.Id == questionId.Value);
                 if(randomQuestion==null)
                 {
@@ -214,6 +224,7 @@ namespace GuessR.Controllers
             else
             {
                 // If a question has not been generated for this session, generate a new question
+                //return RedirectToAction("Index", "Home");
                 randomQuestion = GenerateRandomQuestion();
             }
 
@@ -226,7 +237,7 @@ namespace GuessR.Controllers
         [HttpPost]
         public IActionResult GuessAnswer(string answer, int questionId)
         {
-            // Get the question from the database
+             // Get the question from the database
             var question = _context.GuessModel.FirstOrDefault(x => x.Id == questionId);
 
             // Check if the answer is correct
@@ -237,30 +248,27 @@ namespace GuessR.Controllers
                 score++;
                 HttpContext.Session.SetInt32("Score", score);
             }
-            
-            // Get the next question from the database that hasn't been shown before
-            var nextQuestion = _context.GuessModel
-                .Where(q => !_shownQuestionIds.Contains(q.Id))
-                .OrderBy(x => Guid.NewGuid())
-                .FirstOrDefault();
 
+            // Add question to list so we keep track of questions already listed in session
+            _alreadyViewedQuestionsIds.Add(question.Id);
+
+            // Get the next question from the database that hasn't been shown before
+            var nextQuestion = GenerateRandomQuestion();
             if (nextQuestion != null)
             {
-                // Keep track of the ID of the shown question
-                _shownQuestionIds.Add(nextQuestion.Id);
-
                 // If there is a next question, show it
-
                 SaveViewBag(nextQuestion);
                 ViewBag.Score = HttpContext.Session.GetInt32("Score") ?? 0;
 
-                return View("Game", nextQuestion);
+                // return View("Game", nextQuestion);
+                return RedirectToAction("Game");
             }
             else
             {
                 // If there are no more questions, show the GameOver view with the score
                 ViewBag.Score = HttpContext.Session.GetInt32("Score") ?? 0;
                 HttpContext.Session.Clear();
+                HttpContext.Session.Remove("QuestionId");
                 _shownQuestionIds.Clear();
                 return View("GameOver");
             }
