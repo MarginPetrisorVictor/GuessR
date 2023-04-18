@@ -35,6 +35,18 @@ else
     <button type="submit" class="btn btn-primary" onclick="disableConfirmNavigation()">Submit</button>
 </form>
 
+@if (ViewBag.Alert == true)
+{
+    <script>
+        if (confirm('Are you sure you want to do this?')) {
+            //
+        } else {
+            //
+        }
+    </script>
+    ViewBag.Alert = false;
+}
+
 <script>
     let confirmNavigation = true;
 

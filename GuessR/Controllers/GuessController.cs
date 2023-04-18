@@ -208,28 +208,32 @@ namespace GuessR.Controllers
 
             if(questionId.HasValue)
             {
-                if (_alreadyViewedQuestionsIds.Contains(questionId.Value))
+                if(questionId.Value!=-1)
                 {
-                    _alreadyViewedQuestionsIds.Clear();
-                    return View("GameOver");
+                    randomQuestion=_context.GuessModel.FirstOrDefault(q => q.Id == questionId.Value);
+                    if (randomQuestion==null)
+                    {
+                        // If the question no longer exists in the database, generate a new question
+                        randomQuestion = GenerateRandomQuestion();
+                    }
                 }
-
-                randomQuestion=_context.GuessModel.FirstOrDefault(q => q.Id == questionId.Value);
-                if(randomQuestion==null)
+                else
                 {
-                    // If the question no longer exists in the database, generate a new question
-                    randomQuestion = GenerateRandomQuestion();
+                    _shownQuestionIds.Clear();
+                    HttpContext.Session.Clear();
+                    ViewBag.Alert=true;
+                    return RedirectToAction("Index", "Home");
                 }
             }
+            
             else
             {
                 // If a question has not been generated for this session, generate a new question
-                //return RedirectToAction("Index", "Home");
                 randomQuestion = GenerateRandomQuestion();
             }
 
             SaveViewBag(randomQuestion);
-
+            HttpContext.Session.SetInt32("QuestionId", -1);
             return View(randomQuestion);
         }
 
@@ -237,7 +241,7 @@ namespace GuessR.Controllers
         [HttpPost]
         public IActionResult GuessAnswer(string answer, int questionId)
         {
-             // Get the question from the database
+            // Get the question from the database
             var question = _context.GuessModel.FirstOrDefault(x => x.Id == questionId);
 
             // Check if the answer is correct
@@ -249,9 +253,6 @@ namespace GuessR.Controllers
                 HttpContext.Session.SetInt32("Score", score);
             }
 
-            // Add question to list so we keep track of questions already listed in session
-            _alreadyViewedQuestionsIds.Add(question.Id);
-
             // Get the next question from the database that hasn't been shown before
             var nextQuestion = GenerateRandomQuestion();
             if (nextQuestion != null)
@@ -259,6 +260,7 @@ namespace GuessR.Controllers
                 // If there is a next question, show it
                 SaveViewBag(nextQuestion);
                 ViewBag.Score = HttpContext.Session.GetInt32("Score") ?? 0;
+                
 
                 // return View("Game", nextQuestion);
                 return RedirectToAction("Game");
@@ -268,7 +270,6 @@ namespace GuessR.Controllers
                 // If there are no more questions, show the GameOver view with the score
                 ViewBag.Score = HttpContext.Session.GetInt32("Score") ?? 0;
                 HttpContext.Session.Clear();
-                HttpContext.Session.Remove("QuestionId");
                 _shownQuestionIds.Clear();
                 return View("GameOver");
             }
