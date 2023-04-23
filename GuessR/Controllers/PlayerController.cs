@@ -11,6 +11,10 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
+using System.IO;
+using Microsoft.AspNetCore.Hosting;
+using GuessR.Data.Migrations;
+
 namespace GuessR.Controllers
 {
 	//[Route("Account")]
@@ -20,16 +24,19 @@ namespace GuessR.Controllers
 		private readonly RoleManager<IdentityRole> roleManager;
 		private readonly IConfiguration _configuration;
 		private readonly ApplicationDbContext databaseContext;
+		private readonly IWebHostEnvironment webHostEnvironment;
 
 		public PlayerController(UserManager<IdentityUser> _userManager,
 			RoleManager<IdentityRole> roleManager,
 			IConfiguration configuration,
-			ApplicationDbContext applicationDbContext)
+			ApplicationDbContext applicationDbContext,
+			IWebHostEnvironment webHost)
 		{
 			this.userManager = _userManager;
 			this.roleManager = roleManager;
 			_configuration = configuration;
 			databaseContext = applicationDbContext;
+			webHostEnvironment = webHost;
 		}
 
 		//[HttpPost]
@@ -83,6 +90,37 @@ namespace GuessR.Controllers
 			return Ok(new Response { Status = "Success", Message = "Player created successfully!" });
 		}
 
+		//metoda pentru a face upload la o imagine din calculator.
+		
+		private string UploadFile(Player player)
+		{
+			string uniqueFileName = null;
+			
+			if(player.ProfilePicture != null)
+			{
+				string uploadsFolder = Path.Combine(webHostEnvironment.WebRootPath, "images");
+				uniqueFileName = Guid.NewGuid().ToString() +"_"+player.ProfilePicture.FileName;
+				string filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+				using(var fileStream = new FileStream(filePath, FileMode.Create))
+				{
+					player.ProfilePicture.CopyTo(fileStream);
+				}
+			}
+			return uniqueFileName;
+		}
+
+		public async Task<IActionResult> Create(int playerID, Player player)
+        {
+			string uniqueFileName = UploadFile(player);
+            var player1 = await databaseContext.Players.FindAsync(playerID);
+            player1.ImageUrl = uniqueFileName;
+
+            databaseContext.Players.Update(player1);
+            await databaseContext.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Details));
+		}
 
 
 		public IActionResult Details()
@@ -90,16 +128,20 @@ namespace GuessR.Controllers
 			var userName = User.Identity?.Name;
 			var player = databaseContext.Players.Where(p => p.Name == userName).Select(p => new Player
 			{
+				Id = p.Id,
+				User = p.User,
 				Name = p.Name,
 				Score = p.Score,
 				SuccessPercentage = p.SuccessPercentage,
 				Rank = p.Rank,
 				TotalPlayedGames = p.TotalPlayedGames,
-				TotalScore = p.TotalScore
-			}).FirstOrDefault();
+				TotalScore = p.TotalScore,
+				ImageUrl = p.ImageUrl,
+				ProfilePicture = p.ProfilePicture
+			}).FirstOrDefault(); //verific Player-ul care are acelasi nume in contul inregistrat pe platforma.
 
 
-			return View(player); // aici adaug host-ul pentru noua pagina 
+			return View(player); // aici returnez modelul pentru pagina 'Details.cshtml'
 		}
 	}
 

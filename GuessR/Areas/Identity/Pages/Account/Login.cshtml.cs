@@ -14,6 +14,7 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
+using System.Text.RegularExpressions;
 
 namespace GuessR.Areas.Identity.Pages.Account
 {
@@ -21,11 +22,13 @@ namespace GuessR.Areas.Identity.Pages.Account
     {
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly ILogger<LoginModel> _logger;
+        private readonly UserManager<IdentityUser> _userManager;
 
-        public LoginModel(SignInManager<IdentityUser> signInManager, ILogger<LoginModel> logger)
+        public LoginModel(SignInManager<IdentityUser> signInManager, ILogger<LoginModel> logger, UserManager<IdentityUser> userManager)
         {
             _signInManager = signInManager;
             _logger = logger;
+            _userManager = userManager;
         }
 
         /// <summary>
@@ -65,7 +68,7 @@ namespace GuessR.Areas.Identity.Pages.Account
             ///     directly from your code. This API may change or be removed in future releases.
             /// </summary>
             [Required]
-            [EmailAddress]
+            [Display(Name = "Username/Email")]
             public string Email { get; set; }
 
             /// <summary>
@@ -107,11 +110,33 @@ namespace GuessR.Areas.Identity.Pages.Account
 
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
 
+            string userNameOrEmail = Input.Email;
+            if (userNameOrEmail.Contains("@"))
+            {
+                // input is an email, look up user by email
+                var user = await _userManager.FindByEmailAsync(userNameOrEmail);
+                if (user != null)
+                {
+                    // user found, set the input to their username
+                    userNameOrEmail = user.UserName;
+                }
+            }
+            else
+            {
+                // input is a username, look up user by username
+                var user = await _userManager.FindByNameAsync(userNameOrEmail);
+                if (user == null)
+                {
+                    // user not found, return an error
+                    ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                }
+            }
             if (ModelState.IsValid)
             {
+
                 // This doesn't count login failures towards account lockout
                 // To enable password failures to trigger account lockout, set lockoutOnFailure: true
-                var result = await _signInManager.PasswordSignInAsync(Input.Email, Input.Password, Input.RememberMe, lockoutOnFailure: false);
+                var result = await _signInManager.PasswordSignInAsync(userNameOrEmail, Input.Password, Input.RememberMe, lockoutOnFailure: false);
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User logged in.");

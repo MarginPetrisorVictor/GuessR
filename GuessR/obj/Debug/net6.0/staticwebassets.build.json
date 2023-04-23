@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ow4yEKS0Z+25d1E79xsIUvoPh3DM+NYIVeAex5Wx9CE=",
+  "Hash": "ZVWlV9RxJhIPBXPVp38JnLkLK+v7LWAKtam5KOT+8Tc=",
   "Source": "GuessR",
   "BasePath": "_content/GuessR",
   "Mode": "Default",
@@ -1103,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\images\\logo image.png",
+      "SourceId": "GuessR",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\",
+      "BasePath": "_content/GuessR",
+      "RelativePath": "images/logo image.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo image.png"
     },
     {
       "Identity": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\js\\site.js",

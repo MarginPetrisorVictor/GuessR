@@ -1,0 +1,69 @@
+﻿@model GuessR.Models.FriendsViewModel
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@{
+    ViewData["Title"] = "Players";
+}
+
+<h1>Players</h1>
+<hr />
+<form asp-controller="Friend" asp-action="Index" method="get">
+    <p><center>
+        Search by username: <input type="text" name="SearchString" />
+        <input type="submit" value="Search" />
+        </center>
+    </p>
+</form>
+
+<table class="table">
+    <thead>
+        <tr style="text-align: center; vertical-align: middle;">
+            <th> @*pentru poza de profil*@
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.friends![0].Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.friends![0].Rank)
+            </th>
+            <th>
+                Total Games Played
+            </th>
+            <th>
+                Success Rate
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.friends!)
+        {
+            <tr style="text-align: center; vertical-align: middle;">
+                <td>
+                    @if (string.IsNullOrEmpty(@item.ImageUrl))
+                    {
+                        <img src="~/images/logo image.png" style="width:75px;height:75px;" />
+                    }
+                    else
+                    {
+                        <img src="~/images/@item.ImageUrl" style="width:75px;height:75px;" />
+                    }
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Rank)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TotalPlayedGames)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SuccessPercentage)%
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

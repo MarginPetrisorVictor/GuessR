@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\images\\logo image.png",
+      "PackagePath": "staticwebassets\\images\\logo image.png"
+    },
+    {
       "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

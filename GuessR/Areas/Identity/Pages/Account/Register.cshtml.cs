@@ -85,6 +85,13 @@ namespace GuessR.Areas.Identity.Pages.Account
             [Display(Name = "Email")]
             public string Email { get; set; }
 
+            // <summary>
+            //      Aici adaug eu coloana username la inregistrarea unui cont pentru a putea afisa orice username
+            //      Nu doar email-ul.
+            [Required]
+            [Display(Name = "Username")]
+            public string UserName { get; set; }
+
             /// <summary>
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
             ///     directly from your code. This API may change or be removed in future releases.
@@ -103,6 +110,7 @@ namespace GuessR.Areas.Identity.Pages.Account
             [Display(Name = "Confirm password")]
             [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
             public string ConfirmPassword { get; set; }
+
         }
 
 
@@ -119,22 +127,23 @@ namespace GuessR.Areas.Identity.Pages.Account
             if (ModelState.IsValid)
             {
                 var user = CreateUser();
-				
-				await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
+				// aici am pus eu input.UserName in loc de Input.Email la linia de mai jos!
+				await _userStore.SetUserNameAsync(user, Input.UserName, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
                 var result = await _userManager.CreateAsync(user, Input.Password);
-
-				// adaug si player
-				var player = new Player()
-				{
-					UserId = user.Id,
-					Name = user.UserName
-				};
-				await databaseContext.AddAsync(player);
-				await databaseContext.SaveChangesAsync();
+                // aici era player inainte
 
 				if (result.Succeeded)
                 {
+                    // adaug si player
+                    var player = new Player()
+                    {
+                        UserId = user.Id,
+                        Name = user.UserName
+                    };
+                    await databaseContext.AddAsync(player);
+                    await databaseContext.SaveChangesAsync();
+
                     _logger.LogInformation("User created a new account with password.");
 
                     var userId = await _userManager.GetUserIdAsync(user);

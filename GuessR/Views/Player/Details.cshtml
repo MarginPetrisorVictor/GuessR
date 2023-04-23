@@ -4,15 +4,15 @@
 @inject UserManager<IdentityUser> UserManager
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Stats";
 }
 
 <h1>Stats</h1>
 
-
-@if(Model != null)
+@if (Model != null)
 {
-    <div>
+    <form enctype="multipart/form-data" asp-action="Create" onsubmit="return ValidateForm()">
+        <div>
         <h4>Hi, @Model.Name</h4>
         <hr />
         <dl class="row">
@@ -54,8 +54,125 @@
             </dd>
         </dl>
     </div>
+    
+    <div class="form-group">
+        <label asp-for="ProfilePicture" class="control-label"></label>
+        
+        <span class="text-danger invisible" id="ImageError">Please choose image</span>
+        <div class="custom-file">
+            <input asp-for="ProfilePicture" class="custom-file-input" id="ProfilePicture">
+            <label class="custom-file-label" for="FLProfilePicture">Choose file</label>
+        </div>
+        <span asp-validation-for="ProfilePicture" class="text-danger"></span>
+
+        <input type="hidden" asp-for="ImageUrl" id="ImageUrl" value="Error" />
+
+        <div class ="col-4 row">
+            <div class="form-group col-12 justify-content-center align-middle mb-0 pb-0">
+                    @if (string.IsNullOrEmpty(Model.ImageUrl))
+                    {
+                        <img id="ProfilePicturePrv" src="~/images/logo image.png" alt="logo image" width="150" height="150" style="border:1px solid black; margin-top:20px; margin-left:120px;" />
+                    }
+                    else
+                    {
+                        <img id="ProfilePicturePrv" src="~/images/@Model.ImageUrl" width="150" height="150" style="border:1px solid black; margin-top:20px; margin-left:120px;" />
+                    }
+            </div>
+        </div>
+        <input type="hidden" name="playerID" value="@Model.Id" />
+    </div>
+
+    <div class="col-12 btn-group">
+        <div class="col-6 form-group text-left p-2">
+            <input type="submit" value="Create" class="btn btn-primary btn-block">
+        </div>
+    </div>
+    </form>
+
+
 }
 else
 {
     <h4>Please log in to view your stats.</h4>
+}
+
+@section Scripts{
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+    <script type="text/javascript">
+        $(".custom-file-input").on("change", function(){
+
+            document.getElementById('ImageError').classList.add("invisible");
+            document.getElementById('ImageError').classList.remove("visible");
+
+            var fileName = $(this).val().split("\\").pop();
+
+            var fileExt = fileName.split('.').pop();
+
+
+            var error = isImageValid(fileExt);
+            if(error != ""){
+                
+                document.getElementById('ImageError').innerText = error;
+                document.getElementById('ImageError').classList.remove("invisible");
+                document.getElementById('ImageError').classList.add("visible");
+                
+                return;
+            }
+
+
+            $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+            document.getElementById('ProfilePicturePrv').src = window.URL.createObjectURL(this.files[0]);
+
+            document.getElementById('ImageUrl').value = fileName;
+        });
+
+
+function isExtensionValid(fileExt) {
+    if(fileExt != 'jpg' && fileExt != 'png' && fileExt != 'jpeg'){
+        return "Only Jpg, Jpeg and Png files are accepted!";
+    }
+    return "";
+}
+
+
+function isImageSelected() {
+    if(document.getElementById('ImageUrl').value == 'Error'){
+        //alert('Image not selected for upload');
+        return "Image not selected for upload";
+    }
+    return "";
+}
+
+
+function isImageValid(fileExt) {
+
+        var error = "";
+        error = isExtensionValid(fileExt);
+
+        if (error != "") {
+        //alert(error);
+        return error;
+            }
+
+        return "";
+}
+
+
+function ValidateForm(){
+
+    var error = isImageSelected();
+      if (error != "") {
+
+         document.getElementById('ImageError').innerText = error;
+         document.getElementById('ImageError').classList.remove("invisible");
+         document.getElementById('ImageError').classList.add("visible");
+         
+         return false;
+      }
+
+      return true;
+}
+
+</script>
 }

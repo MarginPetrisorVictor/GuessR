@@ -10,9 +10,9 @@ namespace GuessR.Models
 		[Key]
 		public int Id { get; set; }
 		[StringLength(256)]
-		public string Name { get; set; }
+		public string? Name { get; set; }
 		[StringLength(450)]
-		public string UserId { get; set; }
+		public string? UserId { get; set; }
 
 		public DateTime CreatedDateTime { get; set; } = DateTime.Now;
 		[AllowNull]
@@ -25,9 +25,16 @@ namespace GuessR.Models
 		public int TotalPlayedGames { get; set; }
 		[AllowNull]
 		public int SuccessPercentage { get; set; }
+		[AllowNull]
+		[StringLength(500)]
+		public string? ImageUrl { get; set; } //daca nu declaram ca 'nullable' cu '?', atunci va da eroare pentru ca gaseste null in baza de date.
 
 		[ForeignKey(nameof(UserId))]
-		public IdentityUser User { get; set; }
+		public IdentityUser? User { get; set; }
+
+		[Display(Name="Profile Picture")]
+		[NotMapped]
+		public IFormFile? ProfilePicture { get; set; }
 
 	}
 }
