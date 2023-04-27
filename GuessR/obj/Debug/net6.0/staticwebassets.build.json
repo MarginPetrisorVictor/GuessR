@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5kDbT5iz2PvAAgywndJ/NxoJ4R3a8i2bDaLlrRSvN6w=",
+  "Hash": "djN0hHMkJe73WUSTl2a3/i0KX4QN+67ZKsk8Q1UbeEI=",
   "Source": "GuessR",
   "BasePath": "_content/GuessR",
   "Mode": "Default",
@@ -1120,6 +1120,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\d31ec8ad-06e7-437f-9ffe-0e08e70a71ef_1.jpeg"
+    },
+    {
+      "Identity": "Q:\\faculta\\AN3\\SEM 2\\II\\Proiect\\Proiect Git\\GuessR\\GuessR\\wwwroot\\images\\f3e74a35-82a9-468e-b29c-495a030475ae_def.png",
+      "SourceId": "GuessR",
+      "SourceType": "Discovered",
+      "ContentRoot": "Q:\\faculta\\AN3\\SEM 2\\II\\Proiect\\Proiect Git\\GuessR\\GuessR\\wwwroot\\",
+      "BasePath": "_content/GuessR",
+      "RelativePath": "images/f3e74a35-82a9-468e-b29c-495a030475ae_def.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\f3e74a35-82a9-468e-b29c-495a030475ae_def.png"
     },
     {
       "Identity": "Q:\\faculta\\AN3\\SEM 2\\II\\Proiect\\Proiect Git\\GuessR\\GuessR\\wwwroot\\images\\logo image.png",
