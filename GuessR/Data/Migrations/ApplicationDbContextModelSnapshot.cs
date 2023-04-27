@@ -91,7 +91,7 @@ namespace GuessR.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("GuessModel");
-                });
+                }));
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
