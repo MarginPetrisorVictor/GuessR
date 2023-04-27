@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\GuessR",
+    "\\GuessR\\Controllers",
+    "\\GuessR\\Data",
+    "\\GuessR\\Models",
+    "\\GuessR\\Views",
+    "\\GuessR\\Views\\Guess"
+  ],
+  "SelectedNode": "\\GuessR\\Controllers\\GuessController.cs",
+  "PreviewInSolutionExplorer": false
+}

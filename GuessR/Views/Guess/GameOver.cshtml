@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewData["Title"] = "GameOver";
+}
+
+<h2>Game Over</h2>
+
+<p>Your score: @ViewBag.Score</p>
+
+<a asp-controller="Home" asp-action="Index" class="btn btn-primary">Go Back to Home Page</a>
+<a asp-controller="Guess" asp-action="Game" class="btn btn-primary">Play Again</a>

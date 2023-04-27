@@ -1,0 +1,43 @@
+﻿@model IEnumerable<GuessR.Models.GuessModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.GuessRiddle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GuessAnswer)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.GuessRiddle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GuessAnswer)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a> |
+                <a asp-controller="Guess" asp-action="Game" class="btn btn-primary">Play Game</a>
+
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
