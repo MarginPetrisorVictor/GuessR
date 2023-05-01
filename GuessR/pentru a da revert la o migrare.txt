@@ -1,0 +1,1 @@
+Update-Database -Migration:"20230330223442_AddPlayersTable"
