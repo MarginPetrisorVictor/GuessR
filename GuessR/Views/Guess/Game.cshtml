@@ -47,6 +47,7 @@ else
     ViewBag.Alert = false;
 }
 
+
 <script>
     let confirmNavigation = true;
 
@@ -67,4 +68,11 @@ else
         disableConfirmNavigation();
         window.history.pushState(null, "", window.location.href);
     }
+
+    // Set focus on the text field when the page loads
+    document.addEventListener("DOMContentLoaded", function () {
+        var answerInput = document.getElementById("answer");
+        answerInput.focus();
+        answerInput.click();
+    });
 </script>
