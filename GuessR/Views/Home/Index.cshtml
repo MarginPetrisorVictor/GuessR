@@ -3,19 +3,39 @@
 }
 
 <div class="d-flex justify-content-center align-items-center" style="height: 80vh;">
-    <a asp-controller="Guess" asp-action="Game" class="button">
-        Begin
-    </a>
-
+    <form method="post" asp-controller="Guess" asp-action="Game" enctype="multipart/form-data">
+        <div>
+            <button type="submit" class="button">Begin</button>
+        </div>
+        <div class="checkboxes-container">
+            <div>
+                <label><input type="checkbox" name="questionType" value="Song" checked /> Song</label>
+                <label><input type="checkbox" name="questionType" value="Game" checked /> Game</label>
+                <label><input type="checkbox" name="questionType" value="Movie" checked /> Movie</label>
+                <label><input type="checkbox" name="questionType" value="Famous" checked /> Famous</label>
+                <label><input type="checkbox" name="questionType" value="Other" checked /> Other</label>
+            </div>
+        </div>
+    </form>
 </div>
 
+
 <style>
+
     a.btn.btn-primary:hover {
         text-decoration: none;
         color: #fff;
     }
 
+    .checkboxes-container {
+        position: absolute;
+        bottom: 60px;
+        right: 0;
+    }
+
     .button {
+        border: 0px !important;
+        outline: 0 !important;
         width: 400px;
         height: 400px;
         border-radius: 50%;
@@ -45,6 +65,7 @@
     .button:active {
         outline: none;
     }
+
 </style>
 
 

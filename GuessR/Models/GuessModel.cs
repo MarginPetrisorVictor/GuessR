@@ -9,6 +9,8 @@
         public string QuestionType { get; set; } // Add a new property to store the type of the question
         public string ContentType { get; set; }
         public string ContentUrl { get; set; }
+
+        public string Question { get; set; }   
         public GuessModel() { }
     }
 }
