@@ -10,7 +10,9 @@ using GuessR.Models;
 using static System.Formats.Asn1.AsnWriter;
 using static System.Net.Mime.MediaTypeNames;
 using Microsoft.Extensions.Configuration;
-
+using Microsoft.AspNetCore.Authorization;
+using System.Numerics;
+using Microsoft.AspNetCore.Hosting;
 
 namespace GuessR.Controllers
 {
@@ -18,14 +20,18 @@ namespace GuessR.Controllers
     {
         private readonly ApplicationDbContext _context;
 
-        public GuessController(ApplicationDbContext context)
+        private readonly IWebHostEnvironment webHostEnvironment;
+
+        public GuessController(ApplicationDbContext context, IWebHostEnvironment webHostEnvironment)
         {
             _context = context;
+            this.webHostEnvironment = webHostEnvironment;
         }
         private static List<int> _shownQuestionIds = new List<int>();
         private static List<int> _alreadyViewedQuestionsIds = new List<int>();
 
         // GET: Guess
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Index()
         {
               return _context.GuessModel != null ? 
@@ -55,9 +61,57 @@ namespace GuessR.Controllers
         }
 
         // GET: Guess/Create
+        [Authorize(Roles = "Admin")]
         public IActionResult Create()
         {
             return View();
+        }
+
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create([Bind("Id,GuessRiddle,GuessAnswer,ProfilePicture")] GuessModel guessModel)
+        {
+            string uniqueFileName = UploadFile(guessModel);
+            if (uniqueFileName != null)
+            {
+                guessModel.ContentUrl = uniqueFileName;
+            }
+            else
+            {
+                guessModel.ContentUrl = "";
+            }
+
+            if (!string.IsNullOrEmpty(guessModel.ContentUrl))
+            {
+                guessModel.QuestionType = "Image";
+            }
+
+            if (ModelState.IsValid)
+            {
+                _context.Add(guessModel);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(guessModel);
+        }
+
+        private string UploadFile(GuessModel guessModel)
+        {
+            string uniqueFileName = null;
+
+            if (guessModel.ProfilePicture != null)
+            {
+                string uploadsFolder = Path.Combine(webHostEnvironment.WebRootPath, "images");
+                uniqueFileName = Guid.NewGuid().ToString() + "_" + guessModel.ProfilePicture.FileName;
+                string filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                {
+                    guessModel.ProfilePicture.CopyTo(fileStream);
+                }
+            }
+            return uniqueFileName;
         }
 
         // POST: Guess/Create
@@ -65,11 +119,26 @@ namespace GuessR.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,GuessRiddle,GuessAnswer")] GuessModel guessModel)
+        public async Task<IActionResult> EditGuess([Bind("Id,GuessRiddle,GuessAnswer,ContentUrl,ProfilePicture")] GuessModel guessModel)
         {
+            string uniqueFileName = UploadFile(guessModel);
+            if (uniqueFileName != null)
+            {
+                guessModel.ContentUrl = uniqueFileName;
+            }
+            else
+            {
+                guessModel.ContentUrl = "";
+            }
+
+            if (!string.IsNullOrEmpty(guessModel.ContentUrl))
+            {
+                guessModel.QuestionType = "Image";
+            }
+
             if (ModelState.IsValid)
             {
-                _context.Add(guessModel);
+                _context.Update(guessModel);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }

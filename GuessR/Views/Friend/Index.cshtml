@@ -40,30 +40,35 @@
     <tbody>
         @foreach (var item in Model.friends!)
         {
-            <tr style="text-align: center; vertical-align: middle;">
-                <td>
-                    @if (string.IsNullOrEmpty(@item.ImageUrl))
-                    {
-                        <img src="~/images/logo image.png" style="width:75px;height:75px;" />
-                    }
-                    else
-                    {
-                        <img src="~/images/@item.ImageUrl" style="width:75px;height:75px;" />
-                    }
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Name)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Rank)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.TotalPlayedGames)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.SuccessPercentage)%
-                </td>
-            </tr>
+            // Check if player is not an administrator
+            var user = await UserManager.FindByIdAsync(item.UserId);
+            if (user != null && !await UserManager.IsInRoleAsync(user, "Admin"))
+            {
+                <tr style="text-align: center; vertical-align: middle;">
+                    <td>
+                        @if (string.IsNullOrEmpty(@item.ImageUrl))
+                        {
+                            <img src="~/images/logo image.png" style="width:75px;height:75px;" />
+                        }
+                        else
+                        {
+                            <img src="~/images/@item.ImageUrl" style="width:75px;height:75px;" />
+                        }
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Rank)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TotalPlayedGames)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.SuccessPercentage)%
+                    </td>
+                </tr>
+            }
         }
     </tbody>
 </table>
