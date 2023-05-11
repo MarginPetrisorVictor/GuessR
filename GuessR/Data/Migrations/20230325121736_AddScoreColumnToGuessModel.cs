@@ -8,18 +8,17 @@ namespace GuessR.Data.Migrations
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.AddColumn<int>(
-                name: "Score",
+            migrationBuilder.AddColumn<string>(
+                name: "Question",
                 table: "GuessModel",
-                type: "int",
-                nullable: false,
-                defaultValue: 0);
+                type: "string",
+                nullable: true);
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropColumn(
-                name: "Score",
+                name: "Question",
                 table: "GuessModel");
         }
     }
