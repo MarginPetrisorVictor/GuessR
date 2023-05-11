@@ -11,7 +11,7 @@ namespace GuessR.Data.Migrations
         {
             migrationBuilder.DropForeignKey(
                 name: "FK_Player_AspNetUsers_UserId",
-                table: "Player");
+                table: "Players");
 
             migrationBuilder.DropIndex(
                 name: "IX_GuessModel_UserId",

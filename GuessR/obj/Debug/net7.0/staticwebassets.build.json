@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ksJQq9pug+0KClmWlCh/m9w+fr4FWFCVQLejSbZcTms=",
+  "Hash": "ROyAbC8Mu5/6RJ5/FMWux1bg9GSJcaXugzFmq9pIgOs=",
   "Source": "GuessR",
   "BasePath": "_content/GuessR",
   "Mode": "Default",
@@ -1120,6 +1120,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\17cb7bbd-b563-4fe3-99e4-cad322f577a3_windbreaker.png"
+    },
+    {
+      "Identity": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\images\\2000c5d7-14c8-4e3a-9e4d-da28ff41eec3_1.jpeg",
+      "SourceId": "GuessR",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\",
+      "BasePath": "_content/GuessR",
+      "RelativePath": "images/2000c5d7-14c8-4e3a-9e4d-da28ff41eec3_1.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\2000c5d7-14c8-4e3a-9e4d-da28ff41eec3_1.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\images\\3c4db735-e4bb-4174-a76f-c3f9b873e65c_WhatsApp Image 2021-05-23 at 23.57.44.jpeg",
+      "SourceId": "GuessR",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\",
+      "BasePath": "_content/GuessR",
+      "RelativePath": "images/3c4db735-e4bb-4174-a76f-c3f9b873e65c_WhatsApp Image 2021-05-23 at 23.57.44.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\3c4db735-e4bb-4174-a76f-c3f9b873e65c_WhatsApp Image 2021-05-23 at 23.57.44.jpeg"
     },
     {
       "Identity": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\images\\4182900e-88e1-4df0-85a2-0dcf1f3fc2f3_WhatsApp Image 2021-05-23 at 23.57.44.jpeg",
