@@ -10961,24 +10961,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\chiti\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\odd_t\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\GuessR.csproj",
+      "projectUniqueName": "Q:\\faculta\\AN3\\SEM 2\\II\\Proiect\\Proiect Git\\GuessR\\GuessR\\GuessR.csproj",
       "projectName": "GuessR",
-      "projectPath": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\GuessR.csproj",
-      "packagesPath": "C:\\Users\\chiti\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\obj\\",
+      "projectPath": "Q:\\faculta\\AN3\\SEM 2\\II\\Proiect\\Proiect Git\\GuessR\\GuessR\\GuessR.csproj",
+      "packagesPath": "C:\\Users\\odd_t\\.nuget\\packages\\",
+      "outputPath": "Q:\\faculta\\AN3\\SEM 2\\II\\Proiect\\Proiect Git\\GuessR\\GuessR\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\chiti\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\odd_t\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10986,7 +10981,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11067,7 +11061,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
