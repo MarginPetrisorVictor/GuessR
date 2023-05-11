@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4O+xLCcxInVYVbAFcNiFGQPmZcGIpIe+zaw/xggI9LQ=",
+  "Hash": "ksJQq9pug+0KClmWlCh/m9w+fr4FWFCVQLejSbZcTms=",
   "Source": "GuessR",
   "BasePath": "_content/GuessR",
   "Mode": "Default",
@@ -1120,6 +1120,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\17cb7bbd-b563-4fe3-99e4-cad322f577a3_windbreaker.png"
+    },
+    {
+      "Identity": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\images\\4182900e-88e1-4df0-85a2-0dcf1f3fc2f3_WhatsApp Image 2021-05-23 at 23.57.44.jpeg",
+      "SourceId": "GuessR",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\",
+      "BasePath": "_content/GuessR",
+      "RelativePath": "images/4182900e-88e1-4df0-85a2-0dcf1f3fc2f3_WhatsApp Image 2021-05-23 at 23.57.44.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\4182900e-88e1-4df0-85a2-0dcf1f3fc2f3_WhatsApp Image 2021-05-23 at 23.57.44.jpeg"
     },
     {
       "Identity": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\images\\4e87720d-1a94-477d-950d-91f978c4dc48_windbreaker jay.png",
