@@ -21,6 +21,7 @@ namespace GuessR.Controllers
         private readonly ApplicationDbContext _context;
 
         private readonly IWebHostEnvironment webHostEnvironment;
+        private static int _questionCounter=0;
 
         public GuessController(ApplicationDbContext context, IWebHostEnvironment webHostEnvironment)
         {
@@ -256,6 +257,10 @@ namespace GuessR.Controllers
 
         private GuessModel GenerateRandomQuestion()
         {
+            if(_questionCounter >= 15)
+            {
+                return null;
+            }
             var randomQuestion = _context.GuessModel
             .Where(q => !_shownQuestionIds.Contains(q.Id) && selectedQuestionTypes.Contains(q.QuestionType))
             .OrderBy(x => Guid.NewGuid())
@@ -265,6 +270,7 @@ namespace GuessR.Controllers
             if (randomQuestion != null)
             {
                 _shownQuestionIds.Add(randomQuestion.Id);
+                _questionCounter++;
 
                 // Store the question ID in the session for future requests
                 HttpContext.Session.SetInt32("QuestionId", randomQuestion.Id);
