@@ -10,7 +10,7 @@ namespace GuessR.Models
         public string GuessRiddle { get; set; }
         public string GuessAnswer { get; set; }
         public int Score { get; set; }
-        public string Question { get; set; }
+        public string Question { get; set; } = "";
         public string QuestionType { get; set; } = ""; // Add a new property to store the type of the question
         public string ContentType { get; set; } = "";
         public string ContentUrl { get; set; } = "";
@@ -19,6 +19,5 @@ namespace GuessR.Models
         [NotMapped]
         public IFormFile? ProfilePicture { get; set; }
 
-        public GuessModel() { }
     }
 }
