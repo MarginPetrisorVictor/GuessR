@@ -1,335 +1,359 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\GuessR.bundle.scp.css",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\GuessR.bundle.scp.css",
       "PackagePath": "staticwebassets\\GuessR.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\css\\site.css",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\favicon.ico",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\images\\17cb7bbd-b563-4fe3-99e4-cad322f577a3_windbreaker.png",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\images\\08057f7b-730c-4b6a-a272-57d3917add73_WIN_20220213_21_43_11_Pro.jpg",
+      "PackagePath": "staticwebassets\\images\\08057f7b-730c-4b6a-a272-57d3917add73_WIN_20220213_21_43_11_Pro.jpg"
+    },
+    {
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\images\\17cb7bbd-b563-4fe3-99e4-cad322f577a3_windbreaker.png",
       "PackagePath": "staticwebassets\\images\\17cb7bbd-b563-4fe3-99e4-cad322f577a3_windbreaker.png"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\images\\2000c5d7-14c8-4e3a-9e4d-da28ff41eec3_1.jpeg",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\images\\2000c5d7-14c8-4e3a-9e4d-da28ff41eec3_1.jpeg",
       "PackagePath": "staticwebassets\\images\\2000c5d7-14c8-4e3a-9e4d-da28ff41eec3_1.jpeg"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\images\\2b44b3ba-2ce2-4d24-a047-f83a3c23f6e2_WIN_20200925_14_24_20_Pro.jpg",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\images\\2b44b3ba-2ce2-4d24-a047-f83a3c23f6e2_WIN_20200925_14_24_20_Pro.jpg",
       "PackagePath": "staticwebassets\\images\\2b44b3ba-2ce2-4d24-a047-f83a3c23f6e2_WIN_20200925_14_24_20_Pro.jpg"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\images\\3c4db735-e4bb-4174-a76f-c3f9b873e65c_WhatsApp Image 2021-05-23 at 23.57.44.jpeg",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\images\\3c4db735-e4bb-4174-a76f-c3f9b873e65c_WhatsApp Image 2021-05-23 at 23.57.44.jpeg",
       "PackagePath": "staticwebassets\\images\\3c4db735-e4bb-4174-a76f-c3f9b873e65c_WhatsApp Image 2021-05-23 at 23.57.44.jpeg"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\images\\4182900e-88e1-4df0-85a2-0dcf1f3fc2f3_WhatsApp Image 2021-05-23 at 23.57.44.jpeg",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\images\\4182900e-88e1-4df0-85a2-0dcf1f3fc2f3_WhatsApp Image 2021-05-23 at 23.57.44.jpeg",
       "PackagePath": "staticwebassets\\images\\4182900e-88e1-4df0-85a2-0dcf1f3fc2f3_WhatsApp Image 2021-05-23 at 23.57.44.jpeg"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\images\\47e24976-2759-41c9-b887-8d564a7af80d_WIN_20220307_12_04_49_Pro.jpg",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\images\\47e24976-2759-41c9-b887-8d564a7af80d_WIN_20220307_12_04_49_Pro.jpg",
       "PackagePath": "staticwebassets\\images\\47e24976-2759-41c9-b887-8d564a7af80d_WIN_20220307_12_04_49_Pro.jpg"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\images\\4e87720d-1a94-477d-950d-91f978c4dc48_windbreaker jay.png",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\images\\4e87720d-1a94-477d-950d-91f978c4dc48_windbreaker jay.png",
       "PackagePath": "staticwebassets\\images\\4e87720d-1a94-477d-950d-91f978c4dc48_windbreaker jay.png"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\images\\58d21124-d4c0-4280-ac6f-f30d00a82a56_WIN_20220310_18_48_09_Pro.jpg",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\images\\58d21124-d4c0-4280-ac6f-f30d00a82a56_WIN_20220310_18_48_09_Pro.jpg",
       "PackagePath": "staticwebassets\\images\\58d21124-d4c0-4280-ac6f-f30d00a82a56_WIN_20220310_18_48_09_Pro.jpg"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\images\\623b9dc5-2d12-4056-9bf4-fa542afa1d6e_windbreaker.png",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\images\\623b9dc5-2d12-4056-9bf4-fa542afa1d6e_windbreaker.png",
       "PackagePath": "staticwebassets\\images\\623b9dc5-2d12-4056-9bf4-fa542afa1d6e_windbreaker.png"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\images\\7fe0647c-bcff-454f-b64f-3232ddd269ae_WIN_20220407_08_15_19_Pro.jpg",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\images\\7fe0647c-bcff-454f-b64f-3232ddd269ae_WIN_20220407_08_15_19_Pro.jpg",
       "PackagePath": "staticwebassets\\images\\7fe0647c-bcff-454f-b64f-3232ddd269ae_WIN_20220407_08_15_19_Pro.jpg"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\images\\836d1e42-7e65-4cfd-af83-3ea7a3391054_windbreaker jay.png",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\images\\836d1e42-7e65-4cfd-af83-3ea7a3391054_windbreaker jay.png",
       "PackagePath": "staticwebassets\\images\\836d1e42-7e65-4cfd-af83-3ea7a3391054_windbreaker jay.png"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\images\\99e05d8e-8a4a-4c1c-8f51-c4c76bf8c954_WIN_20221129_11_32_49_Pro.jpg",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\images\\87b4b240-aed9-4cf5-88d1-9841984752c6_WIN_20221206_12_04_46_Pro.jpg",
+      "PackagePath": "staticwebassets\\images\\87b4b240-aed9-4cf5-88d1-9841984752c6_WIN_20221206_12_04_46_Pro.jpg"
+    },
+    {
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\images\\99e05d8e-8a4a-4c1c-8f51-c4c76bf8c954_WIN_20221129_11_32_49_Pro.jpg",
       "PackagePath": "staticwebassets\\images\\99e05d8e-8a4a-4c1c-8f51-c4c76bf8c954_WIN_20221129_11_32_49_Pro.jpg"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\images\\ba53ee2d-0921-41bc-92b9-b631f24455a1_windbreaker.png",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\images\\b2f98c0d-419f-4b45-be27-380f2a86e809_WIN_20221129_11_32_57_Pro.jpg",
+      "PackagePath": "staticwebassets\\images\\b2f98c0d-419f-4b45-be27-380f2a86e809_WIN_20221129_11_32_57_Pro.jpg"
+    },
+    {
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\images\\ba53ee2d-0921-41bc-92b9-b631f24455a1_windbreaker.png",
       "PackagePath": "staticwebassets\\images\\ba53ee2d-0921-41bc-92b9-b631f24455a1_windbreaker.png"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\images\\baf1c974-c63a-4cad-bd62-de795637de24_WIN_20220310_18_48_09_Pro.jpg",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\images\\baf1c974-c63a-4cad-bd62-de795637de24_WIN_20220310_18_48_09_Pro.jpg",
       "PackagePath": "staticwebassets\\images\\baf1c974-c63a-4cad-bd62-de795637de24_WIN_20220310_18_48_09_Pro.jpg"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\images\\c4ac4f17-22e6-462b-932d-5ed923fb2abc_windbreaker minu.png",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\images\\c4ac4f17-22e6-462b-932d-5ed923fb2abc_windbreaker minu.png",
       "PackagePath": "staticwebassets\\images\\c4ac4f17-22e6-462b-932d-5ed923fb2abc_windbreaker minu.png"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\images\\d31ec8ad-06e7-437f-9ffe-0e08e70a71ef_1.jpeg",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\images\\ca70fca6-e14c-4655-98ba-9e50db40a939_WIN_20211209_20_14_13_Pro.jpg",
+      "PackagePath": "staticwebassets\\images\\ca70fca6-e14c-4655-98ba-9e50db40a939_WIN_20211209_20_14_13_Pro.jpg"
+    },
+    {
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\images\\d31ec8ad-06e7-437f-9ffe-0e08e70a71ef_1.jpeg",
       "PackagePath": "staticwebassets\\images\\d31ec8ad-06e7-437f-9ffe-0e08e70a71ef_1.jpeg"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\images\\d526d307-2719-47b5-b747-41538059a9fe_WIN_20200925_14_24_20_Pro.jpg",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\images\\d526d307-2719-47b5-b747-41538059a9fe_WIN_20200925_14_24_20_Pro.jpg",
       "PackagePath": "staticwebassets\\images\\d526d307-2719-47b5-b747-41538059a9fe_WIN_20200925_14_24_20_Pro.jpg"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\images\\ea4f35b9-9613-47f0-ba41-5789adb930ae_WIN_20200925_14_24_20_Pro.jpg",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\images\\e2af57c6-4baf-47c9-a88b-6b34fc54d2bf_WIN_20230516_20_48_24_Pro.jpg",
+      "PackagePath": "staticwebassets\\images\\e2af57c6-4baf-47c9-a88b-6b34fc54d2bf_WIN_20230516_20_48_24_Pro.jpg"
+    },
+    {
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\images\\ea4f35b9-9613-47f0-ba41-5789adb930ae_WIN_20200925_14_24_20_Pro.jpg",
       "PackagePath": "staticwebassets\\images\\ea4f35b9-9613-47f0-ba41-5789adb930ae_WIN_20200925_14_24_20_Pro.jpg"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\images\\eebebac2-fbd4-477b-875d-ccd4becc21e1_WIN_20220310_18_48_09_Pro.jpg",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\images\\ec2cf71b-4bec-461c-ad5d-14cd0aa12f29_WIN_20211209_20_14_13_Pro.jpg",
+      "PackagePath": "staticwebassets\\images\\ec2cf71b-4bec-461c-ad5d-14cd0aa12f29_WIN_20211209_20_14_13_Pro.jpg"
+    },
+    {
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\images\\eebebac2-fbd4-477b-875d-ccd4becc21e1_WIN_20220310_18_48_09_Pro.jpg",
       "PackagePath": "staticwebassets\\images\\eebebac2-fbd4-477b-875d-ccd4becc21e1_WIN_20220310_18_48_09_Pro.jpg"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\images\\f04fee58-e54b-48bd-839e-f66f3688e16a_WIN_20200925_14_24_20_Pro.jpg",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\images\\f04fee58-e54b-48bd-839e-f66f3688e16a_WIN_20200925_14_24_20_Pro.jpg",
       "PackagePath": "staticwebassets\\images\\f04fee58-e54b-48bd-839e-f66f3688e16a_WIN_20200925_14_24_20_Pro.jpg"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\images\\f3e74a35-82a9-468e-b29c-495a030475ae_def.png",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\images\\f3e74a35-82a9-468e-b29c-495a030475ae_def.png",
       "PackagePath": "staticwebassets\\images\\f3e74a35-82a9-468e-b29c-495a030475ae_def.png"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\images\\logo image.png",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\images\\logo image.png",
       "PackagePath": "staticwebassets\\images\\logo image.png"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\js\\site.js",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\GuessR.csproj": {}
+    "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\GuessR.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\GuessR.csproj": {
+    "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\GuessR.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\GuessR.csproj",
+        "projectUniqueName": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\GuessR.csproj",
         "projectName": "GuessR",
-        "projectPath": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\GuessR.csproj",
-        "packagesPath": "C:\\Users\\chiti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chiti\\source\\repos\\Proiect_II\\GuessR\\GuessR\\obj\\",
+        "projectPath": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\GuessR.csproj",
+        "packagesPath": "C:\\Users\\Petrisor\\.nuget\\packages\\",
+        "outputPath": "E:\\FACULTATE\\ANUL III\\Sem II\\Informatica industriala\\Proiect\\GuessR\\GuessR\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\chiti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Petrisor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

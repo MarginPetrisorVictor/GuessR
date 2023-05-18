@@ -73,18 +73,8 @@ namespace GuessR.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,GuessRiddle,GuessAnswer,Question,QuestionType,ProfilePicture")] GuessModel guessModel)
+        public async Task<IActionResult> Create([Bind("Id,GuessRiddle,GuessAnswer,Question,QuestionType,ContentUrl")] GuessModel guessModel)
         {
-            string uniqueFileName = UploadFile(guessModel);
-            if (uniqueFileName != null)
-            {
-                guessModel.ContentUrl = uniqueFileName;
-            }
-            else
-            {
-                guessModel.ContentUrl = "";
-            }
-
             if (ModelState.IsValid)
             {
                 _context.Add(guessModel);
@@ -164,7 +154,7 @@ namespace GuessR.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,GuessRiddle,GuessAnswer")] GuessModel guessModel)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,GuessRiddle,GuessAnswer,ContentUrl")] GuessModel guessModel)
         {
             if (id != guessModel.Id)
             {
