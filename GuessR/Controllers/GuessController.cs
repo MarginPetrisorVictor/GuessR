@@ -73,7 +73,7 @@ namespace GuessR.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,GuessRiddle,GuessAnswer,ProfilePicture")] GuessModel guessModel)
+        public async Task<IActionResult> Create([Bind("Id,GuessRiddle,GuessAnswer,Question,QuestionType,ProfilePicture")] GuessModel guessModel)
         {
             string uniqueFileName = UploadFile(guessModel);
             if (uniqueFileName != null)
@@ -89,6 +89,7 @@ namespace GuessR.Controllers
             {
                 guessModel.QuestionType = "Image";
             }
+
 
             if (ModelState.IsValid)
             {

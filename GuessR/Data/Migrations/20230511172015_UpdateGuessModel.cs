@@ -4,14 +4,13 @@
 
 namespace GuessR.Data.Migrations
 {
-    public partial class AddScoreColumnToGuessModel : Migration
+    public partial class UpdateGuessModel : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.AddColumn<string>(
                 name: "Question",
-                table: "GuessModel",
-                type: "string",
+                table: "GuessModels",
                 nullable: true);
         }
 
@@ -19,7 +18,7 @@ namespace GuessR.Data.Migrations
         {
             migrationBuilder.DropColumn(
                 name: "Question",
-                table: "GuessModel");
+                table: "GuessModels");
         }
     }
 }
