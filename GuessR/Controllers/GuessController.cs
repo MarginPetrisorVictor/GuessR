@@ -85,12 +85,6 @@ namespace GuessR.Controllers
                 guessModel.ContentUrl = "";
             }
 
-            if (!string.IsNullOrEmpty(guessModel.ContentUrl))
-            {
-                guessModel.QuestionType = "Image";
-            }
-
-
             if (ModelState.IsValid)
             {
                 _context.Add(guessModel);
@@ -338,7 +332,7 @@ namespace GuessR.Controllers
             var question = _context.GuessModel.FirstOrDefault(x => x.Id == questionId);
 
             // Check if the answer is correct
-            if (question != null && answer.ToLower() == question.GuessAnswer.ToLower())
+            if (question.GuessAnswer != null && answer.ToLower() == question.GuessAnswer.ToLower())
             {
                 // If the answer is correct, increment the score
                 int score=HttpContext.Session.GetInt32("Score") ?? 0;
@@ -363,6 +357,8 @@ namespace GuessR.Controllers
             {
                 // If there are no more questions, show the GameOver view with the score
                 ViewBag.Score = HttpContext.Session.GetInt32("Score") ?? 0;
+                // acum incrementez numarul de jocuri ale player-ului si scorul acestuia.
+
                 HttpContext.Session.Clear();
                 _shownQuestionIds.Clear();
                 return View("GameOver");

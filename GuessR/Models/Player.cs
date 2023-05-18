@@ -24,7 +24,7 @@ namespace GuessR.Models
 		[AllowNull]
 		public int TotalPlayedGames { get; set; }
 		[AllowNull]
-		public int SuccessPercentage { get; set; }
+		public double SuccessPercentage { get; set; }
 		[AllowNull]
 		[StringLength(500)]
 		public string? ImageUrl { get; set; } //daca nu declaram ca 'nullable' cu '?', atunci va da eroare pentru ca gaseste null in baza de date.

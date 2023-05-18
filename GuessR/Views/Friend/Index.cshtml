@@ -1,10 +1,16 @@
 ﻿@model GuessR.Models.FriendsViewModel
+@using GuessR.Data;
 @using Microsoft.AspNetCore.Identity
 @inject SignInManager<IdentityUser> SignInManager
 @inject UserManager<IdentityUser> UserManager
+@inject ApplicationDbContext databaseContext
 
 @{
     ViewData["Title"] = "Players";
+}
+
+@{
+    int totalPlayersCount = Model.friends!.Count;
 }
 
 <h1>Players</h1>
@@ -32,18 +38,31 @@
                 Total Games Played
             </th>
             <th>
+                Score
+            </th>
+            <th>
                 Success Rate
             </th>
-            <th></th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model.friends!)
+        @foreach (var item in Model.friends!.OrderBy(f => f.Rank))
         {
             // Check if player is not an administrator
             var user = await UserManager.FindByIdAsync(item.UserId);
             if (user != null && !await UserManager.IsInRoleAsync(user, "Admin"))
             {
+                if (item.Rank == 0)
+                {
+                    item.Rank = totalPlayersCount;
+
+                    // Update the player in the database
+                    await databaseContext.SaveChangesAsync();
+                    // Refresh the page
+                    <script>
+                        window.location.reload();
+                    </script>
+                }
                 <tr style="text-align: center; vertical-align: middle;">
                     <td>
                         @if (string.IsNullOrEmpty(@item.ImageUrl))
@@ -65,7 +84,10 @@
                         @Html.DisplayFor(modelItem => item.TotalPlayedGames)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.SuccessPercentage)%
+                        @Html.DisplayFor(modelItem => item.TotalScore)
+                    </td>
+                    <td>
+                        @string.Format("{0:F1}%", item.SuccessPercentage)
                     </td>
                 </tr>
             }

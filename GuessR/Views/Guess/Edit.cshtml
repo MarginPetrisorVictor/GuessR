@@ -24,6 +24,7 @@
                 <span asp-validation-for="GuessAnswer" class="text-danger"></span>
             </div>
 
+
             <div class="form-group">
                 <label asp-for="ProfilePicture" class="control-label"></label>
 
@@ -52,7 +53,7 @@
 
             <div class="col-12 btn-group">
                 <div class="col-6 form-group text-left p-2">
-                    <button type="submit" formaction="@Url.Action("EditGuess")" formmethod="post" enctype="multipart/form-data">Create</button>
+                    <button type="submit" formaction="@Url.Action("Edit")" formmethod="post" enctype="multipart/form-data">Edit</button>
                 </div>
             </div>
         </form>
