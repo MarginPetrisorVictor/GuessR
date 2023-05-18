@@ -73,7 +73,7 @@ namespace GuessR.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,GuessRiddle,GuessAnswer,Question,QuestionType,ContentUrl")] GuessModel guessModel)
+        public async Task<IActionResult> Create([Bind("Id,GuessRiddle,GuessAnswer,Question,QuestionType,ContentType,ContentUrl")] GuessModel guessModel)
         {
             if (ModelState.IsValid)
             {
@@ -309,6 +309,7 @@ namespace GuessR.Controllers
                 ViewBag.Score = HttpContext.Session.GetInt32("Score") ?? 0;
                 HttpContext.Session.Clear();
                 _shownQuestionIds.Clear();
+                selectedQuestionTypes = null;
                 return View("GameOver");
             }
 
@@ -349,6 +350,7 @@ namespace GuessR.Controllers
                 ViewBag.Score = HttpContext.Session.GetInt32("Score") ?? 0;
                 // acum incrementez numarul de jocuri ale player-ului si scorul acestuia.
 
+                selectedQuestionTypes = null;
                 HttpContext.Session.Clear();
                 _shownQuestionIds.Clear();
                 return View("GameOver");
