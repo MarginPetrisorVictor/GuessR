@@ -310,6 +310,7 @@ namespace GuessR.Controllers
                 HttpContext.Session.Clear();
                 _shownQuestionIds.Clear();
                 selectedQuestionTypes = null;
+                _questionCounter = 0;
                 return View("GameOver");
             }
 
@@ -351,6 +352,7 @@ namespace GuessR.Controllers
                 // acum incrementez numarul de jocuri ale player-ului si scorul acestuia.
 
                 selectedQuestionTypes = null;
+                _questionCounter = 0;
                 HttpContext.Session.Clear();
                 _shownQuestionIds.Clear();
                 return View("GameOver");
